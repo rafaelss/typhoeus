@@ -9,23 +9,26 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paul Dix"]
-  s.date = %q{2010-11-11}
+  s.date = %q{2011-01-13}
   s.description = %q{Like a modern code version of the mythical beast with 100 serpent heads, Typhoeus runs HTTP requests in parallel while cleanly encapsulating handling logic.}
   s.email = %q{paul@pauldix.net}
   s.extensions = ["ext/typhoeus/extconf.rb"]
   s.extra_rdoc_files = [
-    "README.textile"
+    "LICENSE",
+     "README.textile"
   ]
   s.files = [
     ".gitignore",
      "CHANGELOG.markdown",
      "Gemfile",
      "Gemfile.lock",
+     "LICENSE",
      "README.textile",
      "Rakefile",
      "VERSION",
      "benchmarks/profile.rb",
      "benchmarks/vs_nethttp.rb",
+     "examples/times.rb",
      "examples/twitter.rb",
      "ext/typhoeus/.gitignore",
      "ext/typhoeus/extconf.rb",
@@ -92,6 +95,7 @@ Gem::Specification.new do |s|
      "spec/typhoeus/request_spec.rb",
      "spec/typhoeus/response_spec.rb",
      "spec/typhoeus/utils_spec.rb",
+     "examples/times.rb",
      "examples/twitter.rb"
   ]
 
